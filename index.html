@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/img/logo/meteor-logo.svg"
+    />
+    <title>ASTRO VOID</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="titre"></h1>
+      <figure>
+        <img
+          id="image-logo"
+          src="assets/img/logo/meteor-logo.svg"
+          alt="Logo ASTRO WORLD"
+        />
+      </figure>
+    </header>
+    <section id="menu">
+      <button id="bouton-start" onClick="boutonStart()">Nouvelle Partie</button>
+      <button id="bouton-controles" onClick="openTouches()">Touches</button>
+      <div id="sensitivity">
+        <p id="sensitivity-text">Sensibilité: 2</p>
+        <input type="range" min="1" max="3" value="2" class="slider" />
+      </div>
+      <p id="bestscore">Meilleur score: 0 points</p>
+    </section>
+    <section id="jeu" class="invisible">
+      <canvas id="canvas"></canvas>
+      <p id="currentvalues" class="currentscore">Score: 0 points</p>
+      <p id="currentvalues" class="currentspeed">Vitesse≈ 0 KM/s</p>
+    </section>
+    <section id="gameover" class="invisible">
+      <h1>GAME OVER</h1>
+      <p id="gameoverscore">Score: 0 points</p>
+      <button id="bouton-continuer" onClick="continuerMenu()">Continuer</button>
+    </section>
+    <section id="controls" class="invisible">
+      <img src="assets/img/gui/touches_gui.png" alt="" />
+      <button onClick="closeTouches()">Retour</button>
+    </section>
+    <footer><p>Olivier Châteauvert - 1J1 Interactivite</p></footer>
+  </body>
+</html>
+0
