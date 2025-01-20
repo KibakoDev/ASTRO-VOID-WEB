@@ -16,9 +16,6 @@ Play the game online: [ASTRO VOID](https://kibakodev.github.io/ASTRO-VOID/)
 - HTML5
 - CSS3
 
-## License
-This project is licensed under the [CC Attribution (BY)](https://creativecommons.org/licenses/by/4.0/).
-
 ## Contact
 Email: [kibakodev@gmail.com]  
 GitHub: [kibakodev](https://github.com/kibakodev)
